@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F86F660B29BB5BC4009B1832 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86F660A29BB5BC4009B1832 /* ToDoListViewController.swift */; };
+		F86F660F29BB6674009B1832 /* ToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86F660E29BB6674009B1832 /* ToDoListTableViewCell.swift */; };
+		F86F661129BB6738009B1832 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86F661029BB6738009B1832 /* ToDoListItem.swift */; };
+		F86F662329BD31BD009B1832 /* NewToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86F662229BD31BD009B1832 /* NewToDoItemViewController.swift */; };
+		F86F662529BD31D1009B1832 /* UpdateToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86F662429BD31D1009B1832 /* UpdateToDoItemViewController.swift */; };
+		F8E8D60D29B91BB800A95D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D60C29B91BB800A95D13 /* AppDelegate.swift */; };
+		F8E8D60F29B91BB800A95D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D60E29B91BB800A95D13 /* SceneDelegate.swift */; };
+		F8E8D61429B91BB800A95D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E8D61229B91BB800A95D13 /* Main.storyboard */; };
+		F8E8D61629B91BBB00A95D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E8D61529B91BBB00A95D13 /* Assets.xcassets */; };
+		F8E8D61929B91BBB00A95D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E8D61729B91BBB00A95D13 /* LaunchScreen.storyboard */; };
+		F8E8D62329B91F2F00A95D13 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62229B91F2F00A95D13 /* OnboardingViewController.swift */; };
+		F8E8D62529B91F9400A95D13 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62429B91F9400A95D13 /* OnboardingCollectionViewCell.swift */; };
+		F8E8D62829B928B500A95D13 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62729B928B500A95D13 /* OnboardingModel.swift */; };
+		F8E8D62A29BA44AA00A95D13 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62929BA44AA00A95D13 /* WelcomeScreenViewController.swift */; };
+		F8E8D62C29BA496400A95D13 /* RegisterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62B29BA496400A95D13 /* RegisterScreenViewController.swift */; };
+		F8E8D62E29BA497700A95D13 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D62D29BA497700A95D13 /* LoginScreenViewController.swift */; };
+		F8E8D63129BA4C6200A95D13 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D63029BA4C6200A95D13 /* UserDefaultsHelper.swift */; };
+		F8E8D63329BA4F7200A95D13 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D63229BA4F7200A95D13 /* UserModel.swift */; };
+		F8E8D63529BA5A6200A95D13 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8D63429BA5A6200A95D13 /* HomeScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F86F660A29BB5BC4009B1832 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		F86F660E29BB6674009B1832 /* ToDoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewCell.swift; sourceTree = "<group>"; };
+		F86F661029BB6738009B1832 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		F86F662229BD31BD009B1832 /* NewToDoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoItemViewController.swift; sourceTree = "<group>"; };
+		F86F662429BD31D1009B1832 /* UpdateToDoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateToDoItemViewController.swift; sourceTree = "<group>"; };
+		F8E8D60929B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oruc_OnboardingScreenAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E8D60C29B91BB800A95D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8E8D60E29B91BB800A95D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8E8D61329B91BB800A95D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8E8D61529B91BBB00A95D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E8D61829B91BBB00A95D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8E8D61A29B91BBB00A95D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E8D62229B91F2F00A95D13 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F8E8D62429B91F9400A95D13 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		F8E8D62729B928B500A95D13 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		F8E8D62929BA44AA00A95D13 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		F8E8D62B29BA496400A95D13 /* RegisterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenViewController.swift; sourceTree = "<group>"; };
+		F8E8D62D29BA497700A95D13 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		F8E8D63029BA4C6200A95D13 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		F8E8D63229BA4F7200A95D13 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F8E8D63429BA5A6200A95D13 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E8D60629B91BB800A95D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F86F660929BB5BAE009B1832 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				F86F660D29BB664F009B1832 /* Cell */,
+				F86F660A29BB5BC4009B1832 /* ToDoListViewController.swift */,
+				F86F662229BD31BD009B1832 /* NewToDoItemViewController.swift */,
+				F86F662429BD31D1009B1832 /* UpdateToDoItemViewController.swift */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		F86F660C29BB65ED009B1832 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D62B29BA496400A95D13 /* RegisterScreenViewController.swift */,
+				F8E8D62D29BA497700A95D13 /* LoginScreenViewController.swift */,
+				F8E8D62929BA44AA00A95D13 /* WelcomeScreenViewController.swift */,
+				F8E8D63429BA5A6200A95D13 /* HomeScreenViewController.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		F86F660D29BB664F009B1832 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F86F660E29BB6674009B1832 /* ToDoListTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F8E8D60029B91BB800A95D13 = {
+			isa = PBXGroup;
+			children = (
+				F8E8D60B29B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo */,
+				F8E8D60A29B91BB800A95D13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E8D60A29B91BB800A95D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D60929B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E8D60B29B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D62029B91F0D00A95D13 /* Onboarding */,
+				F86F660C29BB65ED009B1832 /* Authorization */,
+				F86F660929BB5BAE009B1832 /* ToDoList */,
+				F8E8D62F29BA4C3100A95D13 /* Helpers */,
+				F8E8D62629B9288400A95D13 /* Models */,
+				F8E8D60C29B91BB800A95D13 /* AppDelegate.swift */,
+				F8E8D60E29B91BB800A95D13 /* SceneDelegate.swift */,
+				F8E8D61229B91BB800A95D13 /* Main.storyboard */,
+				F8E8D61529B91BBB00A95D13 /* Assets.xcassets */,
+				F8E8D61729B91BBB00A95D13 /* LaunchScreen.storyboard */,
+				F8E8D61A29B91BBB00A95D13 /* Info.plist */,
+			);
+			path = Oruc_OnboardingScreenAppDemo;
+			sourceTree = "<group>";
+		};
+		F8E8D62029B91F0D00A95D13 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D62229B91F2F00A95D13 /* OnboardingViewController.swift */,
+				F8E8D62129B91F1700A95D13 /* Cell */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F8E8D62129B91F1700A95D13 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D62429B91F9400A95D13 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F8E8D62629B9288400A95D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D62729B928B500A95D13 /* OnboardingModel.swift */,
+				F8E8D63229BA4F7200A95D13 /* UserModel.swift */,
+				F86F661029BB6738009B1832 /* ToDoListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8E8D62F29BA4C3100A95D13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8E8D63029BA4C6200A95D13 /* UserDefaultsHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E8D60829B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E8D61D29B91BBB00A95D13 /* Build configuration list for PBXNativeTarget "Oruc_OnboardingScreenAppDemo" */;
+			buildPhases = (
+				F8E8D60529B91BB800A95D13 /* Sources */,
+				F8E8D60629B91BB800A95D13 /* Frameworks */,
+				F8E8D60729B91BB800A95D13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oruc_OnboardingScreenAppDemo;
+			productName = Oruc_OnboardingScreenAppDemo;
+			productReference = F8E8D60929B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E8D60129B91BB800A95D13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F8E8D60829B91BB800A95D13 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F8E8D60429B91BB800A95D13 /* Build configuration list for PBXProject "Oruc_OnboardingScreenAppDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8E8D60029B91BB800A95D13;
+			productRefGroup = F8E8D60A29B91BB800A95D13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E8D60829B91BB800A95D13 /* Oruc_OnboardingScreenAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E8D60729B91BB800A95D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E8D61929B91BBB00A95D13 /* LaunchScreen.storyboard in Resources */,
+				F8E8D61629B91BBB00A95D13 /* Assets.xcassets in Resources */,
+				F8E8D61429B91BB800A95D13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E8D60529B91BB800A95D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E8D63129BA4C6200A95D13 /* UserDefaultsHelper.swift in Sources */,
+				F8E8D60D29B91BB800A95D13 /* AppDelegate.swift in Sources */,
+				F8E8D62829B928B500A95D13 /* OnboardingModel.swift in Sources */,
+				F86F660F29BB6674009B1832 /* ToDoListTableViewCell.swift in Sources */,
+				F86F662529BD31D1009B1832 /* UpdateToDoItemViewController.swift in Sources */,
+				F8E8D62E29BA497700A95D13 /* LoginScreenViewController.swift in Sources */,
+				F86F660B29BB5BC4009B1832 /* ToDoListViewController.swift in Sources */,
+				F86F662329BD31BD009B1832 /* NewToDoItemViewController.swift in Sources */,
+				F8E8D60F29B91BB800A95D13 /* SceneDelegate.swift in Sources */,
+				F8E8D63529BA5A6200A95D13 /* HomeScreenViewController.swift in Sources */,
+				F86F661129BB6738009B1832 /* ToDoListItem.swift in Sources */,
+				F8E8D62329B91F2F00A95D13 /* OnboardingViewController.swift in Sources */,
+				F8E8D62529B91F9400A95D13 /* OnboardingCollectionViewCell.swift in Sources */,
+				F8E8D62C29BA496400A95D13 /* RegisterScreenViewController.swift in Sources */,
+				F8E8D63329BA4F7200A95D13 /* UserModel.swift in Sources */,
+				F8E8D62A29BA44AA00A95D13 /* WelcomeScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8E8D61229B91BB800A95D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E8D61329B91BB800A95D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8E8D61729B91BBB00A95D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E8D61829B91BBB00A95D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8E8D61B29B91BBB00A95D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8E8D61C29B91BBB00A95D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8E8D61E29B91BBB00A95D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMTF56L8GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oruc_OnboardingScreenAppDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dursunzade.Oruc-OnboardingScreenAppDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8E8D61F29B91BBB00A95D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMTF56L8GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oruc_OnboardingScreenAppDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dursunzade.Oruc-OnboardingScreenAppDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E8D60429B91BB800A95D13 /* Build configuration list for PBXProject "Oruc_OnboardingScreenAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E8D61B29B91BBB00A95D13 /* Debug */,
+				F8E8D61C29B91BBB00A95D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E8D61D29B91BBB00A95D13 /* Build configuration list for PBXNativeTarget "Oruc_OnboardingScreenAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E8D61E29B91BBB00A95D13 /* Debug */,
+				F8E8D61F29B91BBB00A95D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E8D60129B91BB800A95D13 /* Project object */;
+}
